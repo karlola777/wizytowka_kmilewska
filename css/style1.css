@@ -1,0 +1,81 @@
+
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	background-image: url('../gfx/ulotki_sterta2.jpg');background-repeat:repeat;
+	font: 12px/1.4em Helvetica, Arial, Sans-Serif, scriptbl; color: #000000; line-height: 2em;
+}
+a {text-decoration:none;color:#a62124}
+a:visited {color:#a62124}
+a:hover {color:#ff2121}
+#container {
+   margin: 10px auto;        
+    background: #d7e895;
+    padding: 0px;
+    width: 700px;
+	border-radius: 50px;
+	border: 2px solid #a0992d;
+}
+
+#logo {height: 263px;
+	background-image: url('../gfx/logo2.png');
+    background-repeat: no-repeat;
+}
+
+#nav {
+height: 30px;
+padding: 5px;
+background: #96B932;
+background-image: url('../gfx/belka.png');
+border-bottom: 2px solid #a0992d    
+}
+#nav ul {
+margin: 0;
+padding: 0; 
+}
+#nav div.menulink {
+    float: left;
+    padding: 3px 8px;
+    background-color: #b4d455;
+	opacity: 0.5;
+    margin: 0 10px 0 0;
+    color: #a0992d;
+}
+
+#nav div.menulink:hover {
+	opacity: 1.0;
+}
+#nav div.menulink {
+ color: #000000;  
+text-decoration: none;    
+}
+#nav div.menulink:hover {opacity:1.0;   
+}
+
+#content {padding: 20px;}
+
+h1 {color:#a0992d;font-size:x-large;margin-top:20px; margin-bottom:20px}
+p {margin-bottom:20px;text-align:justify}
+img.dolewej {float:left; margin:20px}
+.pullquote {
+float: right;
+max-width: 100px;
+border-top: thin #a62124 solid;
+border-bottom: thick #a62124 solid;
+font-size: 16px;
+line-height: 130%;
+font-style: italic;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-left: 15px;
+margin-bottom: 10px;
+}
+table#cv {width:100%}
+td.cvheader {line-height:1.5em; vertical-align:top;border-bottom:2px solid #a62124;font-variant:small-caps;font-size:large;color:#a0992d}
+td.cvdates {line-height:1.5em;width:100px;vertical-align:top;text-align:right;padding-right:10px;border-right:1px dotted #a62124}
+td.cvitems {line-height:1.5em;vertical-align:top;text-align:left;padding-left:10px}
+td.portfoliothumb {text-align:center}
+td.portfoliodescr {vertical-align:top;padding:10px}
